@@ -1,0 +1,176 @@
+#container {
+  border: 2px solid grey;
+  height: auto;
+  width:900px;
+  margin: 0 auto;
+
+}
+.header {
+  width: 800px;
+  height: 50px;
+  border: 2px solid orange;
+  text-align: center;
+  margin: 0 auto;
+}
+.head2 {
+  display:block;
+  float:right;
+  border: 2px solid blue;
+  font-size: 1.2em;
+  font-family: helvetica;
+}
+.head1 {
+  display: block;
+  float:left;
+  border: 2px solid green;
+  font-size: 1.2em;
+  font-family: helvetica;
+}
+.header a {
+  padding: 15px;
+}
+h1 {
+  float: right;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+.topImage{
+  border: 2px solid red;
+  width: 800px;
+  height: 320px;
+  margin: 0 auto;
+  background-image: url("img/image2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav1 {
+  border: 2px solid blue;
+  width:800px;
+  height:40px;
+  margin: 0 auto;
+  background-color:
+}
+.topNav {
+  margin: 0 auto;
+}
+nav a {
+  float: right;
+  padding: 10px;
+}
+.lowImage {
+  border: 2px solid green;
+  height: 380px;
+  width: 800px;
+  border-radius: 5px;
+}
+.lowLink {
+  border: 2px solid purple;
+  height:40px;
+  width: 800px;
+  margin: 0 auto;
+}
+.lowNav {
+  display: block;
+  float: right;
+  position: relative;
+  text-decoration: none;
+  padding: 0 10px 0 0;
+  margin-right: 20px;
+}
+.lowNav h3:hover {
+  cursor: pointer;
+}
+.lowNav ul{
+  list-style:none;
+}
+.lowNav li {
+  display: none;
+  width:80px;
+  height: 30px;
+  background: #747474;
+  margin-left: -40px;
+}
+
+.midImage {
+  border: 2px solid teal;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+  background-image: url("img/image3.jpg");
+  background-size: cover;
+}
+.nav2 {
+  border: 1px solid green;
+  height:40px;
+  width: 360px;
+  margin-left: 55px;
+}
+.dropDown {
+  width: auto;
+  height: auto;
+  position: absolute;
+  background: #747474;
+  opacity: 0.8;
+  z-index: 1;
+  cursor: pointer;
+}
+.dropDown a {
+  color: #fff;
+  padding:5px 5px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+.dropDown a:hover {
+  background: #ccc;
+  color: #fff;
+}
+.dropDown li {
+  border-right: 2px solid #ccc;
+}
+.accordBox {
+  width: 800px;
+  height: 500px;
+  border: 2px solid orange;
+  margin: 0 auto;
+}
+.listBox {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid yellow;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #626E91;
+}
+ul li {
+  list-style: none;
+}
+.footerBox {
+  height: 40px;
+  border: 2px solid grey;
+  overflow: auto;
+}
+.answer {
+  margin-left: 5px;
+  font-size: 1.1em;
+  height: 60px;
+  padding-top: 5px;
+  display: none;
+  background: #F8FAFF;
+}
+.question {
+  border-bottom: 2px solid #ccc;
+  background: #eee;
+  font-size: 1.3em;
+  padding-left: 20px;
+  height: 50px;
+  font-weight: bold;
+  font-family: "helvetica",sans-serif;
+  padding-top: 10px;
+}
